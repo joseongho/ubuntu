@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="/myStyle.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<style>
+			#div1 {
+				width : 20% ;
+				height : 20% ;
+				border : 1px solid black ;
+			}
+			#div2 {
+				width : 20% ;
+				height : 20% ;
+				border : 1px solid black ;
+			}
+			#div3 {
+				width : 20% ;
+				height : 20% ;
+				border : 1px solid black ;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<i class="material-icons">menu</i>
+			<a href="/">home</a>
+			<a href="/javascriptSlide">javascriptSlide</a>
+			<a href="/javascriptDrag">javascriptDrag</a>
+		</nav>
+		<header>
+			header
+		</header>
+		<section>
+			<img id="drag1" draggable="true" src="myImage1.JPG" ondragstart="drag(event)" />
+			<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		</section>
+		<footer>
+			footer
+		</footer>
+		<script src="/nav.js"></script>
+		<script src="test.js"></script>
+	</body>
+</html>

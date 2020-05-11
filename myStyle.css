@@ -29,7 +29,7 @@ footer {
 	border : 1px solid black;
 }
 
-div {
+#modal {
 	position : fixed ;
 	margin : 30% ;
 	width : 20% ;
