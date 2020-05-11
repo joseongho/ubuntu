@@ -17,3 +17,7 @@ document.getElementsByTagName("nav")[0].onmouseout= function () {
 		tmp[i].style.display = "none";
 	} ;
 }
+
+function testFunction() {
+	document.getElementById("modal").style.display = "none";
+}

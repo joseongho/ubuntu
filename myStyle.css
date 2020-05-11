@@ -29,3 +29,15 @@ footer {
 	border : 1px solid black;
 }
 
+div {
+	position : fixed ;
+	margin : 30% ;
+	width : 20% ;
+	height : 20% ;
+	border : 1px solid black ;
+}
+
+button { 
+	position : absolute ;
+	bottom : 0 ;
+	right : 0;
