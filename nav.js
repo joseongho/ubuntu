@@ -17,3 +17,10 @@ document.getElementsByTagName("nav")[0].onmouseout= function () {
 		tmp[i].style.display = "none";
 	} ;
 }
+<<<<<<< HEAD
+=======
+
+function testFunction() {
+	document.getElementById("modal").style.display = "none";
+}
+>>>>>>> e883e93bcafc07854eab77849e1eb808b529fe48

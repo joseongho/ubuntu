@@ -29,3 +29,18 @@ footer {
 	border : 1px solid black;
 }
 
+<<<<<<< HEAD
+=======
+#modal {
+	position : fixed ;
+	margin : 30% ;
+	width : 20% ;
+	height : 20% ;
+	border : 1px solid black ;
+}
+
+button { 
+	position : absolute ;
+	bottom : 0 ;
+	right : 0;
+>>>>>>> e883e93bcafc07854eab77849e1eb808b529fe48
