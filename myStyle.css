@@ -16,13 +16,18 @@ header {
 	border : 1px solid black;
 }
 
-section {
+article {
 	margin : 0% 10% ;
 	border : 1px solid black;
 }
 
 img {
 	width : 100% ;
+}
+
+textarea {
+	max-width : 100% ;
+	min-width : 100% ;
 }
 
 footer {
@@ -37,7 +42,7 @@ footer {
 	border : 1px solid black ;
 }
 
-button { 
+#modal > button { 
 	position : absolute ;
 	bottom : 0 ;
 	right : 0;
