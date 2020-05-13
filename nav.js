@@ -1,6 +1,6 @@
 var i, tmp ;
 
-tmp = document.getElementsByTagName("a");
+tmp = document.getElementsByClassName("nav");
 
 for ( i = 0 ; i < tmp.length ; i++ ) {
 	tmp[i].style.display = "none";
